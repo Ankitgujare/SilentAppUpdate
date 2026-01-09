@@ -58,4 +58,8 @@ The `AndroidManifest.xml` declares:
 
 ## Notes
 - **Security**: The `MANAGE_EXTERNAL_STORAGE` permission is a high-risk permission restricted by Google Play policies. This approach is primarily for internal tools, enterprise apps, or sideloaded scenarios.
-- **File Path**: The app currently hardcodes the search path to `Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS) / "app_update.apk"`.
+- **File Path**: The app currently hardcodes the search path to `Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS) / "app_update.apk"
+`.
+
+## Issue resolved 
+As we Move the file to the Internal storage 
